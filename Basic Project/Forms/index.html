@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patients Form</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+
+    <div class="heading">
+        <p class="head">হাসপাতাল ডাটাবেস</p>
+        <p style="font-size: 25px;">দয়া করে আপনার তথ্য যথাযথ ও সুস্পষ্টভাবে প্রদান করুন, যাতে আমরা আপনাকে যথাসম্ভব সঠিক ও উৎকৃষ্ট সেবা প্রদান করতে সক্ষম হই</p>
+    </div>
+
+   <div class="card">
+        <div class="name box1">
+            <p class="bold-text">আপনার সম্পূর্ণ নাম</p>
+            <input type="text" placeholder="আপনার নাম">
+        </div>
+        <div class="email box1">
+            <p class="bold-text">আপনার সচল ইমেইল</p>
+            <input type="text" placeholder="xyg@gmail.com">
+        </div>
+        <div class="phone box1">
+            <p class="bold-text">মোবাইল নম্বর</p>
+            <input type="text" placeholder="০১...">
+        </div>
+        <div class="district box1">
+        <p class="bold-text">জেলা নির্বাচন করুন:</p>
+        <select>
+        <option value="">জেলা নির্বাচন করুন </option>
+        <option value="dhaka">ঢাকা</option>
+        <option value="chattogram">চট্টগ্রাম</option>
+        <option value="rajshahi">রাজশাহী</option>
+        <option value="khulna">খুলনা</option>
+        <option value="barishal">বরিশাল</option>
+        </select>
+        </div>
+        <div class="dob box1">
+            <p class="bold-text">জন্ম তারিখ (দিন/মাস/বছর)</p>
+            <input type="date">
+        </div>
+        <div class="gender box1">
+            <p class="bold-text">লিঙ্গ নির্বাচন করুন</p>
+            <input type="checkbox">পুরুষ  
+            <input type="checkbox">মহিলা 
+        </div>
+        <div class="test-info box1">
+            <p class="bold-text">ল্যাব টেস্ট নির্বাচন করুন</p>
+            <input type="checkbox">ইসিজি<br>
+            <input type="checkbox">এক্সরে<br>
+            <input type="checkbox">সিবিসি<br>
+            <input type="checkbox">ইউএসজি<br>
+        </div>
+        <div class="doctor-info box1">
+            <p class="bold-text">ডাক্তার নির্বাচন করুন</p>
+            <input type="checkbox">মেডিসিন<br>
+            <input type="checkbox">কার্ডিওলজি<br>
+            <input type="checkbox">নিউরোলজি<br>
+            <input type="checkbox">ইউরোলজি<br>
+        </div>
+        <div class="current-problem box2">
+            <p class="bold-text">বর্তমান সমস্যা / আপনার কথা </p>
+            <textarea rows="4" cols="80" placeholder=" সুস্পষ্টভাবে বলুন..."></textarea>
+        </div>
+        <div class="upload box2">
+            <p class="bold-text">আগের টেস্ট আপলোড করুন [ফাইল সাইজ সীমা 5 MB] </p>
+            <input class="uploadbtn" type="file"> 
+        </div>
+        <button>আবেদন জমা দিন</button>
+   </div>
+</body>
+</html>

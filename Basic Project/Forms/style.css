@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Bangla:ital@0;1&display=swap');
+
+body{
+    font-family:  "Tiro Bangla", serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.heading{
+    height: 400px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to right, #c77dff, #e0aaff);
+    margin-top: 0px;
+    gap: 0px;
+}
+.head{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 50px;
+    height: 40px;
+}
+
+.card{
+    height:auto;
+    width: 800px;
+    margin-top: -190px;
+    background-color: #f5f3f4 ;
+    border: 2px solid black;
+    padding: 30px;
+    display: flex;
+    border-radius: 2%;
+    border-color: #ff2f36;
+    box-shadow: 0 0 15px #8338ec;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.box1{
+    height: auto;
+    width: 45%;
+}
+.bold-text{
+    margin: 10px 0px 10px 0px;
+    height: 20px;
+    font-weight: 700;
+}
+input,option{
+    height: 20px;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 5px;
+ }
+
+.box2{
+    height: auto ; 
+    width: 100%;
+}
+textarea{
+    border-radius: 10px;
+}
+
+button{
+    font-family: inherit;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    background: linear-gradient(to right, #c77dff, #e0aaff);
+}
