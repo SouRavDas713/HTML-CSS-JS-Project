@@ -1,0 +1,171 @@
+body
+{
+    background: linear-gradient(90deg, #36bedf, #237bee);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto+Slab:wght@100..900&display=swap');
+
+
+.full-card{
+    height: 1000px;
+    width: 720px;
+    margin: 0px auto;
+    border: 5px solid #041b35 ;
+    border-radius: 50px;
+    background-color: #000814;
+    box-shadow: 0 0 30px #030428;
+    
+    display: flex;
+    flex-direction:column ; 
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+    
+}
+.photo{
+    height: 300px;
+    width: 100%;
+}
+.image{
+    margin:25px auto ; 
+    height: 250px;
+    width: 250px;
+    background-image:url(./my-photo-2.png) ;
+    background-size: cover;
+    background-color: white;
+    border: 5px solid #90e0ef;
+    border-radius: 50%;
+    box-shadow: 0 0 25px #caf0f8;
+
+}
+
+
+.details{
+    height: 300px;
+    width: 100%;
+    background-color: #000814;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    gap: 0px;
+    color: White;
+    
+}
+.name,.location,.occupation{
+    height:30px;
+    margin: 0px;
+}
+.talk{
+    height: auto;           
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1px;
+}
+.F1{
+    font-family: "Roboto Slab", serif;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.F2{
+    font-family:  "Lato", sans-serif;
+    font-size: 25px;
+}
+
+.option{
+    height: 100px;
+    width: 100%;
+    
+    display: flex;
+    justify-content: center ; 
+    gap: 20px;
+    align-items: center;
+    
+}
+button{
+    width: 250px;
+    padding: 12px 25px;       
+    font-size: 18px;          
+    border-radius: 8px;       
+    border: none;             
+    cursor: pointer;
+}
+.Message{
+    border: 2px solid #070b0b ;
+    box-shadow: 0 0 10px #12cae6;
+    background-color: #5cd2e7;
+}
+.Follow{
+    border: 2px solid #031518 ;
+    box-shadow: 0 0 10px #90e0ef;
+    background-color: #00314c;
+    color: #4bdbff;
+}
+
+
+.social{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+i{
+    
+    font-size: 60px;
+}
+.fa-linkedin{
+    color:#5cd2e7 ; 
+}
+.fa-facebook{
+    color:#4cd8ff
+}
+.fa-twitter{
+    color:rgb(47, 116, 255)
+}
+.fa-instagram{
+    color: #ff006e;
+}
+.fa-github{
+    color:white ; 
+}
+.fa-youtube{
+    color:#d00000 ; 
+}
+
+.skill{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+.skills{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.sk{
+    text-align: center;
+    height: 40px;
+    width: 120px;
+    min-width: 60px;
+    gap: 50px;
+    font-size: 30px;
+    box-shadow: 0 0 5px #12cae6;
+    padding: 10px ;
+    border-radius: 5px;
+    
+    
+}
